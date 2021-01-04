@@ -1,0 +1,801 @@
+
+
+@media (max-width: 1366px) {
+    .pricing-section {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .blog-section {
+        padding: 70px 40px;
+    }
+    .content-writing {
+        padding: 40px 0;
+    }
+    .blog-item img {
+        height: 196px;
+    }
+    .testomonial {
+        padding: 100px 30px;
+    }
+    .t-bio img {
+        margin-left: -30px;
+    }
+    .contact-txt p {
+        padding-right: 20px;
+    }
+    .contact-left {
+        padding-left: 30px;
+        box-sizing: border-box;
+    }
+
+
+}
+
+@media (max-width: 1200px) {
+    .logo {
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+    .logo p {
+        font-size: 27px;
+    }
+    .slider-bttm {
+        padding: 90px 30px;
+    }
+    .video-txt h2 {
+        font-size: 33px;
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+    .video-txt p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .item1 {
+        width: 48%;
+        margin-right: 2%;
+    }
+    .pricing-section {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .pricing-header-txt h2 {
+        font-size: 43px;
+    }
+    .pricing-header-txt h5 {
+        font-size: 18px;
+    }
+    .p-heading h3 {
+        font-size: 23px;
+    }
+    .p-heading h1 {
+        font-size: 55px;
+    }
+    .p-heading h4 {
+        font-size: 18px;
+    }
+    .p-heading h5 {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .team-section {
+        padding: 50px 30px;
+    }
+    .t-text h2 {
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+    .t-group {
+        margin-left: 30px;
+    }
+    .blog-head h1 {
+        font-size: 35px;
+    }
+    .blog-item img {
+        height: 226px;
+        margin-right: 15px;
+        width: 210px;
+    }
+    .blog-item img {
+        height: 197px;
+    }
+    .news-txt p {
+        font-size: 20px;
+        padding-bottom: 35px;
+    }
+    .news-txt h2 {
+        font-size: 30px;
+    }
+    .testomonial-content {
+        margin-left: 2%;
+    }
+    .t-bio img {
+        width: 60px;
+    }
+    .t-user h2 {
+        font-size: 18px;
+    }
+    .t-user p {
+        font-size: 16px;
+    }
+    .t-user {
+        margin-left: 20px;
+    }
+    .news-form .problem input {
+        padding-right: 200px;
+    }
+    .news-form .problem textarea {
+        padding-right: 53px;
+    }
+
+}
+
+
+@media (max-width: 1050px) {
+    .logo img {
+        width: 50px;
+    }
+    .logo p {
+        font-size: 25px;
+    }
+    .slider-bttm {
+        padding: 65px 0;
+    }
+    .video {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    .video-txt {
+        width: 60%;
+        text-align: left;
+        float: none;
+        margin: auto;
+        padding-top: 40px;
+    }
+    .video {
+        width: 90%;
+        margin: auto;
+    }
+    .txt-part {
+        padding: 50px 20px;
+        box-sizing: border-box;
+    }
+    .txt-part h1 {
+        font-size: 50px;
+    }
+    .p-heading h5 {
+        font-size: 16px;
+    }
+    .p-content ul li {
+        font-size: 18px;
+    }
+    .content-writing {
+        padding: 28px 0;
+    }
+    .blog-item img {
+        height: 173px;
+    }
+    .t-bio img {
+        width: 60px;
+    }
+    .t-user h2 {
+        font-size: 18px;
+    }
+    .t-user p {
+        font-size: 16px;
+    }
+    .t-user {
+        margin-left: 20px;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+    .logo {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        margin-left: -50px;
+    }
+    .logo img {
+        float: none;
+        margin-right: 0;
+    }
+    .logo p a {
+        position: absolute;
+        margin-top: -36px;
+        font-size: 24px;
+    }
+    .button {
+        float: none;
+        width: 100%;
+    }
+    .menu ul li a {
+        padding: 0 10px;
+        font-size: 19px;
+    }
+    .menu ul {
+        text-align: left;
+        margin-right: 60px;
+        margin-top: 55px;
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .menu span i {
+        font-size: 40px;
+        position: absolute;
+        top: 80px;
+        left: 12px;
+        color: #6278df;
+    }
+    .menu span {
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+        pointer-events: none;
+    }
+    .menu span .menu-cross {
+        font-size: 50px;
+        position: absolute;
+        top: 74px;
+        left: 13px;
+        color: #6278df;
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .menu .checkbox:checked ~ span .menu-cross{
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+    }
+    .menu .checkbox:checked ~ span .fa-bars{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+
+    .menu .checkbox {
+        position: absolute;
+        top: 80px;
+        left: 15px;
+        width: 40px;
+        height: 40px;
+        opacity: 0;
+        visibility: visible;
+        height: 100%;
+    }
+
+    .menu .checkbox:checked ~ ul{
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+    }
+    .menu ul li {
+        display: block;
+    }
+
+
+
+    .submenu ul{
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+        left: 155px;
+        top: -95px;
+        
+        
+    }
+    .submenu ul li {
+        text-align: right;
+        width: 225px;
+        box-shadow: 1px 12px 15px 2px rgba(98,120,223,.2);
+    }
+    .menu ul li a {
+        font-size: 16px;
+        line-height: 30px;
+        text-align: left;
+        background: #fff;
+    }
+    .button a {
+        padding: 8px 18px;
+    }
+    .slider-text h3 {
+        font-size: 20px;
+        padding-top: 50px;
+    }
+    .slider-text h2 {
+        font-size: 40px;
+        padding: 30px 0;
+    }
+    .default-btn {
+        padding: 14px 14px;
+        font-size: 20px;
+    }
+    .video-txt {
+        width: 75%;
+    }
+    .txt-part h1 {
+        font-size: 38px;
+    }
+    .txt-part h4 {
+        font-size: 21px;
+        padding: 20px 0;
+    }
+    .s-content h3 {
+        font-size: 23px;
+    }
+    .s-content p {
+        font-size: 18px;
+    }
+    .p-heading h3 {
+        font-size: 21px;
+    }
+    .table-item {
+        width: 46%;
+        margin-left: 2%;
+        margin-bottom: 25px;
+    }
+    .p-heading h1 {
+        font-size: 40px;
+        padding: 25px;
+    }
+    .p-heading h4 {
+        font-size: 20px;
+    }
+    .p-heading h5 {
+        font-size: 18px;
+    }
+    .t-text h2 {
+        font-size: 27px;
+    }
+    .t-group {
+        margin-left: 19%;
+    }
+    .man-pic {
+        width: 35%;
+        margin-bottom: 30px;
+    }
+    .man-pic h3 {
+        font-size: 21px;
+        padding-top: 15px;
+    }
+    .man-pic h4 {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    .news-txt p {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .news-txt h2 {
+        font-size: 32px;
+        padding-bottom: 0px;
+    }
+    .news-form input {
+        padding: 16px 10px;
+    }
+    .news-form button {
+        padding: 15px 50px;
+        font-size: 18px;
+    }
+    .blog-item img {
+        width: 100%;
+        height: 100%;
+    }
+    .content-writing {
+        padding: 28px 20px;
+        padding-top: 0px;
+    }
+    .t-item {
+        width: 49%;
+        margin-right: 3%;
+        margin-bottom: 5%;
+    }
+    .t-bio img {
+        margin-left: 5px;
+    }
+    .t-user {
+        margin-left: 10px;
+    }
+    .t-item {
+        margin-left: 25%;
+    }
+    .contact-left {
+        width: 96%;
+    }
+    .contact-right {
+        width: 80%;
+    }
+    .contact-txt p {
+        padding-right: 60px;
+    }
+    .copyright {
+        font-size: 20px;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+    .menu {
+        width: 60%;
+    }
+    .menu ul li a {
+        padding: 0 10px;
+        font-size: 16px;
+    }
+    .button a {
+        padding: 5px 15px;
+        font-size: 18px;
+        margin-top: 12px;
+        font-weight: 600;
+    }
+    .submenu ul li {
+        width: 235px;
+    }
+    .video-txt {
+        width: 80%;
+    }
+    .txt-part h1 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .txt-part h4 {
+        font-size: 18px;
+        padding: 15px 0;
+    }
+    .item1 {
+        width: 96%;
+        margin-left: 2%;
+    }
+    .pricing-header-txt h2 {
+        font-size: 33px;
+    }
+    .pricing-header-txt h5 {
+        font-size: 14px;
+        margin-bottom: 39px;
+    }
+    .table-item {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .p-content ul {
+        padding: 0px;
+    }
+    .p-content ul li {
+        margin-bottom: 15px;
+    }
+    .access-button {
+        margin: 55px auto;
+        margin-bottom: 15px;
+    }
+    .access-button span {
+        padding: 15px 15px;
+        font-size: 16px;
+    }
+    .p-heading h1 {
+        padding: 25px;
+        padding-left: 0px;
+    }
+    .t-text h2 {
+        font-size: 21px;
+        padding: 0px 0;
+    }
+    .man-pic {
+        width: 55%;
+    }
+    .name {
+        text-align: center;
+    }
+    .blog-head h1 {
+        font-size: 25px;
+    }
+    .blog-item img {
+        width: 100%;
+    }
+    .content-writing {
+        padding: 55px 15px;
+    }
+    .content-writing h2 {
+        margin-top: 215px;
+    }
+    .content-writing {
+        padding: 55px 15px;
+        padding-top: 0;
+    }
+    .news-txt h2 {
+        font-size: 20px;
+    }
+    .news-txt p {
+        font-size: 16px;
+    }
+    .t-item {
+        width: 66%;
+        margin-left: 17%;
+    }
+    .t-user {
+        margin-left: 15px;
+    }
+    .contact-right {
+        width: 90%;
+    }
+    .contact-left iframe {
+        height: 500px;
+    }
+    .copyright {
+        font-size: 18px;
+    }
+    .news-form .problem button {
+        display: block;
+    }
+
+    
+}
+
+
+
+@media (max-width: 568px) {
+    .logo {
+        margin-left: -90px;
+    }
+    .menu {
+        width: 100%;
+    }
+    .menu ul {
+        text-align: left;
+        padding-left: 10px;
+    }
+    .menu ul li a {
+        font-size: 12px;
+        padding: 0 4px;
+    }
+    .submenu ul li {
+        width: 145px;
+    }
+    .submenu ul li a {
+        display: block; 
+        line-height: 30px;  
+    }
+    .submenu ul {
+        left: 100px;
+        top: -73px;
+        box-shadow: none;
+    }
+    .menu span i{
+        font-size: 25px;
+    }
+    .menu span .menu-cross {
+        font-size: 30px;
+    }
+    .button {
+        text-align: right;
+    }
+    .button a {
+        padding: 4px 5px;
+        font-size: 11px;
+        margin-top: 0px;
+        border-radius: 5px;
+        position: absolute;
+        top: 86px;
+        right: -16px;
+        margin-right: 40px;
+    }
+    
+    .slider-text {
+        padding: 30px 0;
+        margin-bottom: -120px;
+    }
+    .slider-text h3 {
+        font-size: 18px;
+    }
+    .slider-text h2 {
+        font-size: 33px;
+        padding: 25px 0;
+        margin-bottom: 12px;
+    }
+    .default-btn {
+        padding: 13px 13px;
+        font-size: 14px;
+    }
+    .default-btn {
+        margin: 0px 7px;
+    }
+    .header{
+        padding-bottom: 0;
+    }
+    .video-txt h2 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 16px;
+    }
+    .video-txt p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .video-txt {
+        padding-top: 25px;
+    }
+    .txt-part h1 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .txt-part h4 {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    .service-item {
+        padding: 30px;
+    }
+    .s-icon span {
+        font-size: 30px;
+    }
+    .item1 {
+        padding: 35px 10px;
+    }
+    .s-icon {
+        float: none;
+    }
+    .s-content {
+        float: none;
+        margin-top: -60px;
+    }
+    .s-content h3 {
+        font-size: 21px;
+    }
+    .s-content h3 {
+        margin-bottom: 15px;
+    }
+    .item1 {
+        padding: 25px 0px;
+        padding-left: 20px;
+    }
+    .pricing-header-txt h2 {
+        font-size: 18px;
+    }
+    .pricing-header-txt h5 {
+        font-size: 12px;
+    }
+    .p-heading h1 {
+        font-size: 30px;
+        padding: 15px;
+        padding-left: 0;
+    }
+    .p-heading h3 {
+        font-size: 20px;
+        padding: 0px 0;
+    }
+    .p-heading h4 {
+        font-size: 16px;
+        padding: 8px 0;
+        font-weight: 600;
+    }
+    .p-heading h5 {
+        font-size: 16px;
+        padding-top: 0px;
+    }
+    .p-content ul li {
+        margin-bottom: 7px;
+        font-size: 15px;
+    }
+    .p-content ul li i {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    .p-content ul li .cross {
+        margin-right: 15px;
+    }
+    .access-button {
+        margin: 30px auto;
+        margin-bottom: 0px;
+    }
+    .access-button span {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    .man-pic h3 {
+        font-size: 18px;
+    }
+    .man-pic h4 {
+        font-size: 14px;
+        padding: 8px 0;
+    }
+    .name {
+        margin-left: 7px;
+        text-align: left;
+    }
+    .news-letter {
+        padding: 50px 0;
+    }
+    .news-txt p {
+        font-size: 13px;
+    }
+    .news-txt h2 {
+        font-size: 20px;
+    }
+    .news-form input {
+        padding: 12px 12px;
+        margin-bottom: 20px;
+    }
+    .news-form button {
+        padding: 13px 62px;
+        font-size: 16px;
+        margin-left: 0;
+    }
+    .blog-head {
+        text-align: center;
+    }
+    .blog-head h1 {
+        width: 100%;
+    }
+    .blog-head p {
+        width: 100%;
+    }
+    .blog-item {
+        width: 98%;
+        margin-bottom: 20px;
+    }
+    .news-txt h2 {
+        font-size: 12px;
+    }
+    .news-txt p {
+        font-size: 10px;
+    }
+    .t-item {
+        width: 96%;
+        margin-left: 0%;
+    }
+    .t-bio {
+        margin-left: 50px;
+    }
+    .t-user {
+        width: 100%;
+        text-align: left;
+        padding-left: 40px;
+        box-sizing: border-box;
+    }
+    .t-user h2 {
+        font-size: 16px;
+    }
+    .t-user p {
+        font-size: 15px;
+    }
+    .t-bio img {
+        margin-left: 30%;
+    }
+    .contact-left iframe {
+        height: 300px;
+    }
+    .contact-left {
+        padding-left: 15px;
+    }
+    .contact-txt h3 {
+        font-size: 21px;
+    }
+    .contact-txt p {
+        font-size: 14px;
+    }
+    .news-form .problem {
+        margin-left: -65px;
+    }
+    .news-form .problem input {
+        padding-right: 0px;
+        font-size: 15px;
+    }
+    .news-form .problem textarea {
+        padding-right: 0px;
+    }
+    .news-form .problem button {
+        padding: 10px 25px;
+    }
+    .copyright {
+        font-size: 10px;
+    }
+
+
+}
